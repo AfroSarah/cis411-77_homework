@@ -10,6 +10,8 @@ namespace PetStore.Models
         public int petID { get; set; }
         [Display(Name = "Animal")]
         public string petName { get; set; }
+        [Display(Name = "Breed")]
+        public string petBreed { get; set; }
         [Display(Name = "Description")]
         public string petDescription { get; set; }
         [Display(Name = "Date Received")]
